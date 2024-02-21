@@ -122,7 +122,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-file"></i>
                                 <p>
-                                    Master
+                                    Menu
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
@@ -132,13 +132,6 @@
                                         class="nav-link {{ request()->is('admin/master/daftar_makanan_minuman*') ? 'active' : '' }}">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Daftar Makanan Minuman</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="{{ route('admin.master.resto.index') }}"
-                                        class="nav-link {{ request()->is('admin/master/resto*') ? 'active' : '' }}">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Resto</p>
                                     </a>
                                 </li>
                             </ul>
@@ -193,13 +186,7 @@
                 @yield('content')
             </section>
         </div>
-        <footer class="main-footer">
-            <div class="float-right d-none d-sm-block">
-                <b>Version</b> 3.2.0
-            </div>
-            <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights
-            reserved.
-        </footer>
+      
     </div>
     <script src="{{ asset('assets/vendor/adminlte') }}/plugins/jquery/jquery.min.js"></script>
     <script src="{{ asset('assets/vendor/adminlte') }}/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>

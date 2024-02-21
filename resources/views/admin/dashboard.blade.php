@@ -4,7 +4,7 @@
 @section('content')
     <div class="card">
         <div class="card-header">
-            <h3 class="card-title">Title</h3>
+            <h3 class="card-title">Selamat Datang di Kasir-KU</h3>
             <div class="card-tools">
                 <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
                     <i class="fas fa-minus"></i>
@@ -15,11 +15,12 @@
             </div>
         </div>
         <div class="card-body">
-            Start creating your amazing application!
+            <a href="" class="btn btn-danger">Perhatian !</a> <br/>
+
         </div>
 
         <div class="card-footer">
-            Footer
+            Kasir-KU
         </div>
 
     </div>
